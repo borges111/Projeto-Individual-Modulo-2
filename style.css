@@ -1,0 +1,171 @@
+body {
+    background: url('https://professordoiphone.com.br/wp-content/uploads/2019/06/papel-de-parede.jpg');
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: 100%;
+}
+
+#legenda {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+}
+
+
+#titulo {
+    color: rgb(237, 234, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-bottom: .7rem;
+}
+
+#texto-apresentacao {
+    border: 5px solid rgb(204, 115, 105);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+}
+
+#texto {
+    text-align: center;
+    border: 5px solid rgb(16, 16, 16);
+    border-radius: 8px;
+    margin-left: 18%;
+    margin-right: 18%;
+    background-color: rgb(185, 179, 177);
+    opacity: 0.73;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+
+
+
+}
+
+#caixa-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box{
+
+    border: 5px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 2%;
+
+    background-color: rgb(53, 51, 51);
+    opacity: 0.73;
+
+
+
+}
+
+#subtitulo{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#texto-entrada, #texto-saida {
+    margin: 1%;
+    margin-top: 10px;
+    font-size: 160%;
+    background-color: rgb(199, 55, 36);
+    border: 3.5px solid rgb(0, 10, 15);
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+#selecao {
+    margin: 1%;
+    background-color: rgb(199, 55, 36);
+    border: 1.9px solid rgb(0, 10, 15);
+    border-radius: 8px;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+#caixa-chave {
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+#chave {
+    background-color: rgb(199, 55, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+input[type='radio']{
+    color: rgb(28, 60, 11)
+}
+
+#caixa-escolha {
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+#codificar-btn, #decodificar-btn {
+    border: 3.5px solid rgb(145, 194, 216);
+    border-radius: 15px;
+    font-size: 96%;
+    background-color: rgb(173, 233, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.botao:hover {
+    border: 4px solid rgb(144, 227, 127);
+}
+
+.botao:active {
+    background-color: white;
+}
+
+
+
+
+#confirma-button {
+    margin: 1%;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+
+#btn-apagar {
+        border: 3.5px solid rgb(4, 4, 4);
+        border-radius: 15px;
+        font-size: 110%;
+        padding: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: rgb(227, 55, 25);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.none {
+    display: none;
+}
